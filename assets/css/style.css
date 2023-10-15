@@ -1,0 +1,453 @@
+/* 
+   Theme: Modest Responsive HTML Template 
+   Author: Author name
+   Live URL:
+
+   Primary color: #003060
+   Secondary color: #08dd83
+
+   Font Style
+   Title: 
+   Paragraph: 
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:#23b7a4 ;
+}
+.padding-0{
+    padding: 0;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+/* First Header CSS */
+.fist-section{
+    padding: 10px;
+}
+.top-call{
+    display: inline-flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.top-call p{
+    font-size: 17px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.top-call .fa{
+    color: #2092fc;
+    font-size: 25px;
+}
+.social-media{
+    display: flex;
+    gap: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    justify-content: end;
+}
+.social-media p{
+    font-size: 20px;
+}
+.fist-section .social-media ul {
+    display: flex;
+    gap: 8px;
+}
+.right-icon .fa{
+    font-size: 18px;
+    color: #fff;
+}
+.right-icon .fa-facebook {
+    background-color: #4267b2;
+    border: 1px solid #4267b2;
+    padding: 6px 10px;
+}
+.right-icon .fa-linkedin{
+    background-color: #1c86bf;
+    border: 1px solid #1c86bf;
+    padding: 6px 10px;
+}
+.right-icon .fa-twitter{
+    background-color: #52acf1;
+    border: 1px solid #52acf1;
+    padding: 6px 10px;
+}
+.right-icon .fa-pinterest{
+    background-color: #ff6941;
+    border: 1px solid #ff6941;
+    padding: 6px 10px;
+}
+
+/* Header Section CSS */
+header{
+    background-color: #003060;
+}
+.navbar{
+    background-color: transparent !important;
+}
+.navbar-nav .nav-link {
+    color: #fff;
+}
+.bttn{
+    background-image: linear-gradient(to top right, #08dd83, #15b4c5, #2092fc);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.bttn .nav-link:hover{
+    background-image: linear-gradient(to top right, #2092fc, #15b4c5, #08dd83);
+    border-radius: 5px;
+}
+.nav-item {
+    margin-left: 15px;
+    transition: all 0.3s ease-in-out;
+}
+.nav-item:hover{
+    background-image: linear-gradient(to top right, #08dd83, #15b4c5, #2092fc);
+    border-radius: 5px;
+}
+
+/* Banner Section CSS */
+.banner-section {
+    background: url(../img/banner-bg.png) no-repeat center;
+    background-size: cover;
+    color: #fff;
+    min-height: 75vh;
+    position: relative;
+}
+.banner-section h1{
+    padding: 0 163px 0px 0px;
+    margin-top: 20%;
+}
+.banner-section .btn {
+    margin-bottom: 20%;
+    padding: 8px 20px;
+    border: 1px solid #08dd83;
+    background-image: linear-gradient(to top right, #08dd83, #15b4c5, #2092fc);
+    transition: all 0.3s ease-in-out;
+}
+.banner-section .btn:hover{
+    background-image: linear-gradient(to top right, #2092fc, #15b4c5, #08dd83);
+}
+.btn a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Pricing Section */
+.price-section{
+    margin-bottom: 4%;
+}
+.price-table{
+    border: 1px solid #a1a1a1;
+    border-radius: 4px 4px 0 0;
+   text-align: center;
+   background-color: #fff;
+}
+.price-content{
+    border: 1px solid #08dd83;
+    border-radius: 3px 3px 0 0;
+    text-align: center;
+    background-color: #08dd83;
+    color: #fff;
+    padding: 10px;
+}
+.price p{
+    color: #c9c9c9;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.price h2{
+    font-size: 50px;
+    color: #023f7c;
+    font-weight: 700;
+}
+.price h2 span{
+    font-size: 18px;
+}
+ul li .fa{
+    color: #08bd04;
+}
+.info a {
+    display: block;
+    margin-bottom: 13px;
+    text-decoration: underline;
+    font-weight: 600;
+    color: #023f7c;
+}
+.info button {
+    border: none;
+    margin-bottom: 30px;
+    padding: 8px 45px;
+    letter-spacing: .8px;
+}
+.features li{
+    font-weight: 700;
+}
+.info button:hover{
+    background-image: linear-gradient(to top right, #2092fc, #15b4c5, #08dd83);
+}
+.features {
+    background: #fff;
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+.item-table {
+    width: 70%;
+    position: absolute;
+    margin-left: 5%;
+    top: 80%;
+}
+.two{
+    background-color: #15B4C5;
+    border: 1px solid #15B4C5;
+}
+.three{
+    background-color: #2092FC;
+    border: 1px solid #2092FC;
+}
+.secont-row{
+    margin-top: 35%;
+}
+.para-content h2{
+    margin-right: 30%;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.para-content p{
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.para-content .fa{
+    color: #08bd04;
+}
+.para-content .btn a {
+    border: 1px solid #08dd83;
+    padding: 8px 20px;
+    border-radius: 5px;
+    letter-spacing: .8px;
+    background-image: linear-gradient(to top right, #08dd83, #15b4c5, #2092fc);
+    transition: all 0.3s ease-in-out;
+}
+.para-content .btn a:hover{
+    background-image: linear-gradient(to top right, #2092fc, #15b4c5, #08dd83);
+}
+.btn{
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* Protfolio Sectio CSS */
+.protfolio-section{
+    padding:3% 0 ;
+    border-top: 1px solid #a7a7a7;
+}
+.test-box {
+    display: flex;
+}
+.test-img {
+    width: 23%;
+}
+.test-content {
+    position: relative;
+    width: 60%;
+}
+.test-img p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #a7a7a7;
+}
+.test-img h6 {
+    font-size: 15px;
+    font-weight: 900;
+}
+.test-content p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Meet Section CSS */
+.meet-section{
+    background-color: #003060;
+}
+.padd{
+    padding: 6% 0;
+}
+.meet h2{
+    color: #fff;
+    font-weight: 700;
+    margin-right: 36%;
+    margin-bottom: 30px;
+}
+.meet p{
+    display: flex;
+    color: #fff;
+    align-items: baseline;
+    gap: 5px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.meet p .fa {
+    font-size: 18px;
+    color: #08bd04;
+}
+.meet a{
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #08dd83;
+    padding: 8px 20px;
+    border-radius: 5px;
+    letter-spacing: .8px;
+    background-image: linear-gradient(to top right, #08dd83, #15b4c5, #2092fc);
+    transition: all 0.3s ease-in-out;
+}
+.meet a:hover{
+    background-image: linear-gradient(to top right, #2092fc, #15b4c5,#08dd83 );
+}
+
+/* Contact Section */
+.contact-section{
+	position: relative;
+	padding: 4% 0;
+}
+.contact-form{
+	margin-right: 50px;
+}
+.contact-form p{
+	font-size: 17px;
+	color: #aeaeae;
+}
+.contact-form h2{
+    margin: 5px 0 15px;
+}
+.form-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.form-box .input-box{
+	width: 49.2%;
+}
+.form-box .message-box{
+	width: 100%;
+}
+.form-box .form-control, footer form .form-control{
+	border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    margin-bottom: 12px;
+	padding: 12px 20px;
+}
+.form-box .form-control:focus, footer form .form-control:focus{
+	border: 1px solid #e1e1e1;
+	outline: none;
+	box-shadow: none;
+}
+.form-box input::placeholder, .form-box textarea::placeholder, footer form input::placeholder{
+	font-size: 15px;
+	color: #aeaeae !important;
+}
+.form-box  .btn{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 7px 25px;
+    background-image: linear-gradient(to top right, #08dd83, #15b4c5, #2092fc);
+    transition: all 0.3s ease-in-out;
+}
+.form-box  .btn:hover{
+    background-image: linear-gradient(to top right, #2092fc, #15b4c5,#08dd83 );
+}
+.google-map{
+	position: absolute;
+	width: 50%;
+	height: 110%;
+	top: 0;
+	right: 0;
+}
+.google-map iframe{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+/* Footer Section */
+footer{
+	background: #f9fcff;
+	padding: 6% 0 4%;
+}
+footer h2{
+	margin-bottom: 45px;
+	text-align: center;
+	font-size: 45px;
+    font-weight: 700;
+}
+footer form{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+footer form .form-control{
+	width: 40%;
+}
+footer form input.schedule{
+	padding: 0;
+	width: 17%;
+    color: #fff;
+    text-transform: uppercase;
+    background-image: linear-gradient(to top right, #08dd83, #15b4c5, #2092fc);
+    transition: all 0.3s ease-in-out;
+}
+footer form input.schedule:hover{
+    background-image: linear-gradient(to top right, #2092fc, #15b4c5,#08dd83 );
+}
+
+footer .navbar-nav{
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+}
+footer .navbar-nav .nav-link{
+	display: flex;
+	flex-direction: row;
+	border-radius: 3px;
+	padding: 9px 20px;
+	font-size: 17px;
+    color: #000;
+	font-weight: 700;
+	text-transform: uppercase;
+
+}
+footer .navbar-nav .call-btn{
+	border: 1px solid #000;
+}
+footer .navbar-nav .call-btn:hover{
+	border: 1px solid #15b4c5;
+}
+footer .navbar-nav .nav-link:hover{
+	color: #FFf;
+}
+footer p{
+	margin-top: 15px;
+	text-align: right;
+	font-size: 15px;
+	font-weight: 500;
+	word-spacing: 3px;
+	color: #999999;
+}
+footer p a{
+	color: #15b4c5;
+	transition: all .4s ease-in-out;
+}
+footer p a:hover{
+	color: #08dd83;
+}
+
